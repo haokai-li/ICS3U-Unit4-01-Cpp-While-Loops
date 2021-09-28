@@ -27,6 +27,7 @@ int main() {
             loopNumber = loopNumber + 1;
             answerNumber = answerNumber + loopNumber;
         }
+        // output
         std::cout << "The sum of all positve number from 1 to "
         << userNumber << " is " << answerNumber << std::endl;
     } catch (std::invalid_argument) {
