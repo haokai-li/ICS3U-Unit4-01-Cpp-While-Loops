@@ -16,7 +16,7 @@ int main() {
     int userNumber;
 
     // input
-    std::cout << "Please enter an positve integer: ";
+    std::cout << "Please enter an positive integer: ";
     std::cin >> userString;
     std::cout << "" << std::endl;
 
@@ -28,7 +28,7 @@ int main() {
             answerNumber = answerNumber + loopNumber;
         }
         // output
-        std::cout << "The sum of all positve number from 1 to "
+        std::cout << "The sum of all positive number from 1 to "
         << userNumber << " is " << answerNumber << std::endl;
     } catch (std::invalid_argument) {
         // output
